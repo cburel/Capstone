@@ -1,0 +1,6 @@
+2023-03-15 13:52:00.005 [info] Log level: Info
+2023-03-15 13:52:00.006 [info] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2023-03-15 13:52:00.006 [info] Validating found git in: "C:\Program Files (x86)\Git\cmd\git.exe"
+2023-03-15 13:52:00.006 [info] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2023-03-15 13:52:00.006 [info] Validating found git in: "C:\Users\kryce\AppData\Local\Programs\Git\cmd\git.exe"
+2023-03-15 13:52:00.014 [warning] Git installation not found.

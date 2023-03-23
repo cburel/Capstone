@@ -1,0 +1,6 @@
+2023-03-15 13:51:58.791 [info] update#setState idle
+2023-03-15 13:51:59.373 [info] Starting extension host with pid 22864 (fork() took 11 ms).
+2023-03-15 13:52:28.808 [info] update#setState checking for updates
+2023-03-15 13:52:28.810 [info] update#setState available for download
+2023-03-15 13:56:21.036 [info] Waiting for extension host with pid 22864 to exit.
+2023-03-15 13:56:21.048 [info] Extension host with pid 22864 exited with code: 0, signal: null.
