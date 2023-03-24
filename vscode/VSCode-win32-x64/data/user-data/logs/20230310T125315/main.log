@@ -1,6 +1,0 @@
-2023-03-10 12:53:15.256 [info] update#setState idle
-2023-03-10 12:53:15.882 [info] Starting extension host with pid 24080 (fork() took 18 ms).
-2023-03-10 12:53:45.268 [info] update#setState checking for updates
-2023-03-10 12:53:45.272 [info] update#setState available for download
-2023-03-10 12:55:04.431 [info] Waiting for extension host with pid 24080 to exit.
-2023-03-10 12:55:04.438 [info] Extension host with pid 24080 exited with code: 0, signal: null.

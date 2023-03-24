@@ -2,11 +2,9 @@
 errors listed below, and try again.
 
 
-The label trySmallKey is defined twice, at File "game/script.rpy", line 402:
-label trySmallKey:
-and File "game/script.rpy", line 403:
-    menu trySmallKey:
-
+File "game/script.rpy", line 328: expected menuitem
+    scene bg forestoutskirtsmenu with fade
+    ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Wed Mar 22 14:04:55 2023
+Fri Mar 24 15:38:54 2023
