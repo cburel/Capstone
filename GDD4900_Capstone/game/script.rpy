@@ -140,7 +140,6 @@ label deadThingInsanity:
 label itemInAlley:
     scene bg keyonstreet
     with fade
-    #show dust
     "The alley darkens and the wind picks up."
     "Something small lays on the ground."
     python:
@@ -164,7 +163,6 @@ label itemInAlley:
         "Return to the door.":
             scene bg closedalleydoor
             with fade
-            #show dust
             "The key doesn't fit."
             "There's nothing more to do here."
             jump backOnStreet
@@ -175,7 +173,6 @@ label itemInAlley:
 label backOnStreet:
     scene bg backonstreet
     with fade
-    #show dust
     "Something flickers in one of the streetlights."
 
     menu streetlight:
@@ -189,7 +186,6 @@ label backOnStreet:
     "The key... it goes somewhere."
 
     scene bg wallnormal
-    #show dust
     with fade
     menu useKey:
         "Try the hole in the wall.":
@@ -205,11 +201,9 @@ label holeMoves:
     with flash
     with vpunch
     with hpunch
-    #show dust
     "The stone twists and looks back at the intrusion."
 
     scene bg wallnormal
-    #show dust
     "... It's back to normal."
 
     menu keyLeave:
@@ -218,14 +212,12 @@ label holeMoves:
 
 label holeStationary:
     scene bg wallnormal
-    #show dust
     "Nothing happens."
     jump largeMoon
 
 label largeMoon:
     scene bg largemoon
     with fade
-    #show dust
     "The air dampens. Was the moon always that large?"
     menu:
         "...":

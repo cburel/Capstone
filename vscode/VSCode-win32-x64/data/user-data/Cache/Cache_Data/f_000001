@@ -730,6 +730,41 @@
 				"displayName": "gcode-helper"
 			}
 		},
+		"usernamehw.codicon-names": {
+			"disallowInstall": true,
+			"extension": {
+				"id": "usernamehw.commands",
+				"displayName": "Commands"
+			}
+		},
+		"usernamehw.change-language-mode": {
+			"disallowInstall": true,
+			"extension": {
+				"id": "usernamehw.commands",
+				"displayName": "Commands"
+			}
+		},
+		"gencay.vscode-chatgpt": {
+			"disallowInstall": true,
+			"extension": {
+				"id": "genieai.chatgpt-vscode",
+				"displayName": "Chat"
+			}
+		},
+		"ctf0.ghosttext": {
+			"disallowInstall": true,
+			"extension": {
+				"id": "fregante.ghost-text",
+				"displayName": "GhostText Official"
+			}
+		},
+		"tokoph.ghosttext": {
+			"disallowInstall": true,
+			"extension": {
+				"id": "fregante.ghost-text",
+				"displayName": "GhostText Official"
+			}
+		},
 		"olback.es6-css-minify": true,
 		"redwoodjs.redwood": true,
 		"msoffice.microsoft-office-add-in-debugger": true,

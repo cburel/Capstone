@@ -1,4 +1,0 @@
-2023-03-15 19:25:17.970 [info] update#setState idle
-2023-03-15 19:25:19.140 [info] Starting extension host with pid 23044 (fork() took 13 ms).
-2023-03-15 19:25:21.326 [info] Waiting for extension host with pid 23044 to exit.
-2023-03-15 19:25:21.337 [info] Extension host with pid 23044 exited with code: 0, signal: null.
