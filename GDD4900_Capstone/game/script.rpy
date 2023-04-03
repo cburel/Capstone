@@ -100,7 +100,7 @@ label alleyway:
             jump itemInAlley
 
 label behindAlleyDoor:
-    scene bg behindAlleyDoor with fade
+    scene bg behindAlleyDoor with fade #make art for this
     "You use the big key and swing the door open."
     "The puddle on the floor sticks to your shoes as you walk through it."
     "It reeks."
@@ -123,7 +123,7 @@ label behindAlleyDoorContinue:
             jump itemInAlley
 
 label deadThing:
-    scene bg deadthing with fade
+    scene bg deadthing with fade #make art for this
     $ insanity += 3
     "It's dead."
     python:
@@ -241,7 +241,7 @@ label docks:
         if wentAlleywayFirst == False and wentForestFirst == False:
             wentDocksFirst = True
 
-    scene bg docks with fade
+    scene bg docks with fade #make art for this
     "The water is dark and the area smells musty."
     "One of the boats looks like it's been used recently."
 
@@ -310,7 +310,7 @@ label forest:
     jump forestNormal
 
 label forestNormal:
-    scene bg forestoutskirts with fade
+    scene bg forestoutskirts with fade #make art for this
     "The forest is dark and uninviting."
     "There's no sound, not even from evening birds."
     menu forestOutskirtsMenu:
@@ -333,7 +333,7 @@ label lookAtTheMoon:
     $ insanity += 1
 
 label forestDepths:
-    scene bg templeoutside with fade
+    scene bg templeoutside with fade #make art for this
     "An ancient temple peeks out from the grove."
     "There are footprints in the dirt leading to the entrance."
     menu:
@@ -441,7 +441,7 @@ label templeNormalContinue:
             renpy.jump("templeNoKey")
 
 label behindTempleDoor:
-    scene bg behindtempledoor with fade
+    scene bg behindtempledoor with fade #make art for this
     "The shadows deepen."
     "In the corner of the room is a pedestal."
     "It's lit by candles."
@@ -452,7 +452,7 @@ label behindTempleDoor:
             jump endingLeftTemple
 
 label templePedestal:
-    scene bg templepedestal with fade
+    scene bg templepedestal with fade #make art for this
     "...This isn't right."
     "The candles flicker."
     menu:
@@ -469,7 +469,7 @@ label endingLeftTemple:
     "Turn. Leave. Get out of there. Something isn't right."
     "It whispers to you."
 
-    scene bg leavingtown with fade
+    scene bg leavingtown with fade #make art for this
     "The whole town is rotten."
     "With what is impossible to say."
     "Leave."

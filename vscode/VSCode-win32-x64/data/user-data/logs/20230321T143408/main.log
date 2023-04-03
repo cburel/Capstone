@@ -1,6 +1,0 @@
-2023-03-21 14:34:08.183 [info] update#setState idle
-2023-03-21 14:34:08.929 [info] Starting extension host with pid 20596 (fork() took 17 ms).
-2023-03-21 14:34:38.194 [info] update#setState checking for updates
-2023-03-21 14:34:38.198 [info] update#setState available for download
-2023-03-21 14:50:01.142 [info] Waiting for extension host with pid 20596 to exit.
-2023-03-21 14:50:01.147 [info] Extension host with pid 20596 exited with code: 0, signal: null.
