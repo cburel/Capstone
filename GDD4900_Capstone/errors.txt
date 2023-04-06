@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 328: expected menuitem
-    scene bg forestoutskirtsmenu with fade
-    ^
+File "game/script.rpy", line 137: end of line expected.
+    scene bg deadthing with vpunch with vpunch with vpunch
+                                   ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Fri Mar 24 15:38:54 2023
+Thu Apr  6 10:33:12 2023
