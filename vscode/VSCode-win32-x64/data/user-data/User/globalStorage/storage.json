@@ -5,7 +5,7 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1680798312057"
+                "backupFolder": "1680825267274"
             }
         ]
     },
@@ -36,10 +36,10 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "D:\\Git\\Capstone\\vscode\\VSCode-win32-x64\\data\\user-data\\Backups\\1680798312057",
+            "backupPath": "D:\\Git\\Capstone\\vscode\\VSCode-win32-x64\\data\\user-data\\Backups\\1680825267274",
             "uiState": {
-                "mode": 0,
-                "x": 768,
+                "mode": 1,
+                "x": 0,
                 "y": 0,
                 "width": 768,
                 "height": 816

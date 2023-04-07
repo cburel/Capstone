@@ -1,5 +1,0 @@
-2023-03-23 13:54:20.654 [info] update#setState idle
-2023-03-23 13:54:21.431 [error] vscode-file: Refused to load resource c:\Users\kryce\OneDrive\Documents\Ren'Py\renpy-8.0.3-sdk\vscode\VSCode-win32-x64\resources\app\extensions\theme-seti\icons\seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/c:/Users/kryce/OneDrive/Documents/Ren%27Py/renpy-8.0.3-sdk/vscode/VSCode-win32-x64/resources/app/extensions/theme-seti/icons/seti.woff)
-2023-03-23 13:54:21.497 [info] Starting extension host with pid 10720 (fork() took 14 ms).
-2023-03-23 13:54:24.341 [info] Waiting for extension host with pid 10720 to exit.
-2023-03-23 13:54:24.346 [info] Extension host with pid 10720 exited with code: 0, signal: null.
