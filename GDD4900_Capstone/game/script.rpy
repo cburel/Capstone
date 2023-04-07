@@ -101,7 +101,7 @@ label alleyway:
             jump itemInAlley
 
 label behindAlleyDoor:
-    scene bg behindalleydoor with fade #make art for this
+    scene bg behindalleydoor with fade
     "You use the big key and swing the door open."
     "The puddle on the floor sticks to your shoes as you walk through it."
     "It reeks."

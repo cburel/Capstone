@@ -1,6 +1,0 @@
-2023-03-24 15:35:19.166 [info] update#setState idle
-2023-03-24 15:35:19.794 [info] Starting extension host with pid 13356 (fork() took 12 ms).
-2023-03-24 15:35:49.170 [info] update#setState checking for updates
-2023-03-24 15:35:49.173 [info] update#setState available for download
-2023-03-24 15:36:44.117 [info] Waiting for extension host with pid 13356 to exit.
-2023-03-24 15:36:44.120 [info] Extension host with pid 13356 exited with code: 0, signal: null.
