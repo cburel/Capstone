@@ -26,11 +26,14 @@ init python:
             The maximum number of particles at once in the screen.
             
         @parm {float} speed:
-            The base vertical speed of the particles. The higher the value, the faster particles will fall.
+            The base random speed of the particles. The higher the value, the faster particles will move in random directions.
             Values below 1 will be changed to 1
             
         @parm {float} wind:
             The max wind force that'll be applyed to the particles.
+
+        @parm {float} gravity:
+            The vertical speed of the particles.  The higher the value, the faster they'll fall.
             
         @parm {Tuple ({int} min, {int} max)} xborder:
             The horizontal border range. A random value between those two will be applyed when creating particles.
@@ -83,11 +86,15 @@ init python:
 
                 particles = []
                 
+                # For all of the particles that the system should start with, create one
                 for i in range(0, self.start):
                 
+                    # depth scales the size and alpha of the images to provide variation
                     depth = random.randint(1, self.depth)
                     
-                    depth_speed = 1.5-depth/(self.depth+0.0)                    #print("adding a particle")
+                    depth_speed = 1.5-depth/(self.depth+0.0)
+
+                    # create a particle
                     particles.append( SnowParticle(self.image[depth-1],      # the image used by the particle 
                                         random.uniform(-self.wind, self.wind)*depth_speed,  # wind's force
                                         self.speed*depth_speed,
@@ -153,19 +160,23 @@ init python:
             if speed <= 0:
                 speed = 1
                 
+            # Horizontal movement
             self.wind = wind
             
+            # Random movement
             self.speed = speed
+
+            # Vertical movement
             self.gravity = gravity
 
             self.oldst = None
 
             # Set up the random movement for dust particles
             self.velocity = [random.uniform(-self.speed, self.speed), random.uniform(-self.speed, self.speed)]
-            self.counter = random.uniform(20, 100)
-            #print(self.velocity, self.counter)
 
-            #print("xborder", xborder, "yborder", yborder)
+            # Setup the counter for when this particle will change direction
+            self.counter = random.uniform(10, 50)
+
             self.xpos = random.uniform(0-xborder, renpy.config.screen_width+xborder)
             self.ypos = -yborder
             
@@ -182,10 +193,14 @@ init python:
             lag = st - self.oldst
             self.oldst = st
             
+            # Apply the wind, gravity, and movement for this particle
             self.xpos += lag * (self.wind + self.velocity[0])
             self.ypos += lag * (self.gravity + self.velocity[1])
+
+            # Decrement the counter to when we'll randomly change direction again
             self.counter -= 1
-            #print(self.counter)
+
+            # If it's time to change direction, add some random change and clamp by max speed
             scale = .50
             counterMin = 10
             if self.counter <= counterMin:
@@ -194,7 +209,6 @@ init python:
                 self.velocity[1] += random.uniform(-self.speed * scale, self.speed * scale)
                 self.velocity[1] = clamp(self.velocity[1], -self.speed, self.speed)
                 self.counter = random.uniform(counterMin, 50)
-                #print(self.velocity, self.counter)
                
             if self.ypos > renpy.config.screen_height or\
                (self.wind< 0 and self.xpos < 0) or (self.wind > 0 and self.xpos > renpy.config.screen_width):
