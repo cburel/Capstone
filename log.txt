@@ -1,49 +1,49 @@
-Wed Apr 12 15:50:38 2023
-Windows-10-10.0.22621
+Fri Apr 14 22:23:41 2023
+Windows-10-10.0.19044
 Ren'Py 8.0.3.22090809
  
 
 Bootstrap to the start of init.init took 0.03s
 Early init took 0.00s
-Loader init took 0.05s
-Loading error handling took 0.03s
-Loading script took 0.51s
-Loading save slot metadata. took 0.02s
+Loader init took 0.03s
+Loading error handling took 0.05s
+Loading script took 3.37s
+Loading save slot metadata. took 0.00s
 Loading persistent took 0.00s
 Set script version to: None (alternate path)
- - Init at launcher/game/installer.rpyc:6 took 0.34961 s.
-Running init code took 0.73s
-Loading analysis data took 0.00s
+Running init code took 0.33s
+Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Dump and make backups. took 0.00s
+Backing up script files to 'C:\\Users\\danaw\\AppData\\Roaming/RenPy/backups\\CelesteBurel_Capstone':
+Dump and make backups. took 0.01s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.01s
-DPI scale factor: 1.250000
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.17s
+Creating interface object took 0.15s
 Cleaning stores took 0.00s
-Init translation took 0.02s
+Init translation took 0.04s
 Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.03s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.20s
+Running _start took 0.01s
 Performance test:
-Interface start took 0.09s
+Interface start took 0.06s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
 Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3070 Ti Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 531.41'
+Renderer: b'NVIDIA RTX A3000 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 528.02'
 Display Info: None
-Screen sizes: virtual=(800, 600) physical=(1000, 750) drawable=(1000, 750)
+Screen sizes: virtual=(800, 600) physical=(800, 600) drawable=(800, 600)
 Maximum texture size: 4096x4096

@@ -20,10 +20,18 @@ init python:
 # define image for use in dust particle effect
 image dustparticle = im.Scale("gui/smoke3.png", 10, 10)
 
+# DTW ADDED
+image snow = Snow(im.Scale("gui/smoke3.png", 10, 10), max_particles=400, speed=15, wind=0, gravity=10,\
+                  xborder=(0, 1920), yborder=(0, 1080), start=400)
+
 # The game starts here.
 label start:
+    # DTW ADDED
+    scene black
+    show snow
 
-    scene bg test
+    # DTW REMOVED
+    #scene bg test
     show screen debugUI
 
     menu sanityCheck:
