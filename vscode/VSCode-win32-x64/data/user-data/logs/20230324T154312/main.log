@@ -1,6 +1,0 @@
-2023-03-24 15:43:12.888 [info] update#setState idle
-2023-03-24 15:43:13.421 [info] Starting extension host with pid 11628 (fork() took 13 ms).
-2023-03-24 15:43:42.890 [info] update#setState checking for updates
-2023-03-24 15:43:42.894 [info] update#setState available for download
-2023-03-24 15:56:19.702 [info] Waiting for extension host with pid 11628 to exit.
-2023-03-24 15:56:19.709 [info] Extension host with pid 11628 exited with code: 0, signal: null.
