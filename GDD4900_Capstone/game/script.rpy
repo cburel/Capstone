@@ -32,7 +32,7 @@ label start:
 
     # DTW REMOVED
     #scene bg test
-    show screen debugUI
+    #show screen debugUI
     #show screen dustFX
 
     menu sanityCheck:
@@ -60,7 +60,7 @@ label startofstory:
     play music "audio/scary-spooky-creepy-horror-ambient-dark-piano-cinematic-SoundGalleryByDmitryTaras.mp3"
 
 
-    scene bg townoutskirts with fade
+    scene bg leavingtown with fade
     show snow
     "This is home, now: a quiet town on the edge of a dark forest."
     "However, there seems to be no one here."
@@ -458,7 +458,7 @@ label forceDoorInsane:
     
 
 label templeNormal:
-    scene bg templenormal with fade #make art for this
+    #scene bg templenormal with fade #make art for this
     show snow
     "It's old and smells of moss."
     "There's water on the floor."
@@ -509,7 +509,7 @@ label templePedestal:
 # ---------------------- ending left temple --------------------
 
 label endingLeftTemple:
-    scene bg lefttemple with fade #make art for this
+    #scene bg lefttemple with fade #make art for this
     show snow
     "Turn. Leave. Get out of there. Something isn't right."
     "It whispers to you."
@@ -553,7 +553,8 @@ label trappedInTemple:
     jump endGame
 
 label leftInsane:
-    scene bg leftinsane with fade #make art for this
+    #scene bg leftinsane with fade #make art for this
+    scene bg trappedintemple with fade
     show snow
     "The temple winds on."
     "The shadows follow."
@@ -565,7 +566,8 @@ label leftInsane:
     jump endGame
 
 label leftSane:
-    scene bg leftsane with fade #make art for this
+    #scene bg leftsane with fade #make art for this
+    scene bg trappedintemple with fade
     show snow
     "The temple winds on."
     "The entrance appears only after hours."

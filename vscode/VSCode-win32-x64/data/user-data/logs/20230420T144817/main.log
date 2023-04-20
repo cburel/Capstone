@@ -1,0 +1,6 @@
+2023-04-20 14:48:17.848 [info] update#setState idle
+2023-04-20 14:48:18.530 [info] Starting extension host with pid 3932 (fork() took 14 ms).
+2023-04-20 14:48:47.859 [info] update#setState checking for updates
+2023-04-20 14:48:47.863 [info] update#setState available for download
+2023-04-20 15:29:19.041 [info] Waiting for extension host with pid 3932 to exit.
+2023-04-20 15:29:19.053 [info] Extension host with pid 3932 exited with code: 0, signal: null.

@@ -1,0 +1,65 @@
+2023-04-20 14:48:19.072 [info] Extension host with pid 3932 started
+2023-04-20 14:48:19.127 [info] ExtensionService#_doActivateExtension LuqueDaniel.languague-renpy, startup: false, activationEvent: 'onLanguage:renpy'
+2023-04-20 14:48:19.128 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-04-20 14:48:19.128 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-04-20 14:48:19.267 [error] Error: Unable to write to Workspace Settings because no workspace is opened. Please open a workspace first and try again.
+    at w.y (vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2434:6124)
+    at w.E (vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2434:9041)
+    at w.n (vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2434:3153)
+    at Object.factory (vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2434:3053)
+    at T.h (vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:89:15928)
+    at vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:89:15840
+    at new Promise (<anonymous>)
+    at T.queue (vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:89:15782)
+    at w.writeConfiguration (vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2434:3022)
+    at B.Hb (vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2434:28762)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 0)
+    at async Object.K [as settled] (vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:89:21307)
+    at async B.updateValue (vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2434:17200)
+2023-04-20 14:48:19.267 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-20 14:48:19.285 [info] Eager extensions activated
+2023-04-20 14:48:19.286 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-20 14:48:19.286 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-04-20 14:48:19.286 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-20 14:48:19.287 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl-recommender, startup: false, activationEvent: 'onStartupFinished'
+2023-04-20 14:48:19.361 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-04-20 15:28:55.729 [error] [LuqueDaniel.languague-renpy] provider FAILED
+2023-04-20 15:28:55.730 [error] Error: Illegal argument: character must be non-negative
+	at P (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:7:1129)
+	at new b (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:92:13857)
+	at getSignatureHelp (c:\Users\kryce\OneDrive\Documents\Ren'Py\renpy-8.0.3-sdk\vscode\VSCode-win32-x64\data\extensions\luquedaniel.languague-renpy-2.0.16\out\signature.js:23:30)
+	at Object.provideSignatureHelp (c:\Users\kryce\OneDrive\Documents\Ren'Py\renpy-8.0.3-sdk\vscode\VSCode-win32-x64\data\extensions\luquedaniel.languague-renpy-2.0.16\out\extension.js:110:57)
+	at J.provideSignatureHelp (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:96:48903)
+	at d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:96:65422
+	at se.s (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:96:56458)
+	at se.$provideSignatureHelp (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:96:65409)
+	at u.N (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:104:11208)
+	at u.M (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:104:10926)
+	at u.H (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:104:9981)
+	at u.G (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:104:9000)
+	at d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:104:7788
+	at d.invoke (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:63:145)
+	at w.deliver (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:63:2029)
+	at g.fire (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:63:1667)
+	at h.fire (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:72:14314)
+	at d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:120:15804
+	at d.invoke (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:63:145)
+	at w.deliver (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:63:2029)
+	at g.fire (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:63:1667)
+	at h.fire (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:72:14314)
+	at c.y (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:72:17324)
+	at d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:72:15795
+	at d.invoke (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:63:145)
+	at w.deliver (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:63:2029)
+	at g.fire (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:63:1667)
+	at g.acceptChunk (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:72:12045)
+	at d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:72:11332
+	at Socket.l (d:\Git\Capstone\vscode\VSCode-win32-x64\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:72:19792)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-04-20 15:29:19.000 [info] Extension host terminating: received terminate message from renderer
+2023-04-20 15:29:19.003 [info] Extension host with pid 3932 exiting with code 0
