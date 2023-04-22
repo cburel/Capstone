@@ -1,6 +1,0 @@
-2023-03-29 10:57:31.155 [info] update#setState idle
-2023-03-29 10:57:31.825 [info] Starting extension host with pid 9248 (fork() took 13 ms).
-2023-03-29 10:58:01.159 [info] update#setState checking for updates
-2023-03-29 10:58:01.162 [info] update#setState available for download
-2023-03-29 10:58:26.504 [info] Waiting for extension host with pid 9248 to exit.
-2023-03-29 10:58:26.509 [info] Extension host with pid 9248 exited with code: 0, signal: null.

@@ -6,44 +6,49 @@ game/audio/alone-with-the-darkness-natureseye.mp3 matches ** (['all']).
 game/audio/scary-forest-serge-quadrado.mp3 matches ** (['all']).
 game/audio/scary-spooky-creepy-horror-ambient-dark-piano-cinematic-SoundGalleryByDmitryTaras.mp3 matches ** (['all']).
 game/cache/ matches ** (['all']).
-game/cache/bytecode.rpyb matches ** (['all']).
 game/cache/screens.rpyb matches ** (['all']).
+game/cache/bytecode.rpyb matches ** (['all']).
 game/cache/py3analysis.rpyb matches ** (['all']).
 game/cache/shaders.txt matches ** (['all']).
-game/dustfx_screen.rpyc matches ** (['all']).
 game/debug_ui.rpy matches ** (['all']).
-game/debug_ui.rpyc matches ** (['all']).
-game/dustfx_screen.rpy matches ** (['all']).
 game/gui.rpy matches ** (['all']).
 game/gui/ matches ** (['all']).
 game/gui/bar/ matches ** (['all']).
-game/gui/bar/bottom.png matches ** (['all']).
-game/gui/bar/left.png matches ** (['all']).
+game/gui/bar/right.png~ matches **~ (None).
 game/gui/bar/right.png matches ** (['all']).
+game/gui/bar/top.png~ matches **~ (None).
 game/gui/bar/top.png matches ** (['all']).
+game/gui/bar/bottom.png~ matches **~ (None).
+game/gui/bar/bottom.png matches ** (['all']).
+game/gui/bar/left.png~ matches **~ (None).
+game/gui/bar/left.png matches ** (['all']).
 game/gui/button/ matches ** (['all']).
 game/gui/button/check_foreground.png matches ** (['all']).
-game/gui/button/check_selected_foreground.png matches ** (['all']).
 game/gui/button/hover_background.png matches ** (['all']).
 game/gui/button/idle_background.png matches ** (['all']).
 game/gui/button/quick_hover_background.png matches ** (['all']).
 game/gui/button/quick_idle_background.png matches ** (['all']).
 game/gui/button/radio_foreground.png matches ** (['all']).
-game/gui/button/radio_selected_foreground.png matches ** (['all']).
-game/gui/button/slot_hover_background.png matches ** (['all']).
-game/gui/button/slot_idle_background.png matches ** (['all']).
 game/gui/button/choice_idle_background.png matches ** (['all']).
+game/gui/button/choice_hover_background.png~ matches **~ (None).
 game/gui/button/choice_hover_background.png matches ** (['all']).
-game/gui/frame.png matches ** (['all']).
-game/gui/game_menu.png matches ** (['all']).
+game/gui/button/slot_hover_background.png~ matches **~ (None).
+game/gui/button/slot_hover_background.png matches ** (['all']).
+game/gui/button/slot_idle_background.png~ matches **~ (None).
+game/gui/button/slot_idle_background.png matches ** (['all']).
+game/gui/button/radio_selected_foreground.png~ matches **~ (None).
+game/gui/button/radio_selected_foreground.png matches ** (['all']).
+game/gui/button/check_selected_foreground.png~ matches **~ (None).
+game/gui/button/check_selected_foreground.png matches ** (['all']).
 game/gui/namebox.png matches ** (['all']).
-game/gui/main_menu.png matches ** (['all']).
 game/gui/notify.png matches ** (['all']).
 game/gui/nvl.png matches ** (['all']).
 game/gui/overlay/ matches ** (['all']).
 game/gui/overlay/confirm.png matches ** (['all']).
-game/gui/overlay/game_menu.png matches ** (['all']).
+game/gui/overlay/main_menu.png~ matches **~ (None).
 game/gui/overlay/main_menu.png matches ** (['all']).
+game/gui/overlay/game_menu.png~ matches **~ (None).
+game/gui/overlay/game_menu.png matches ** (['all']).
 game/gui/phone/ matches ** (['all']).
 game/gui/phone/bar/ matches ** (['all']).
 game/gui/phone/bar/bottom.png matches ** (['all']).
@@ -85,28 +90,49 @@ game/gui/phone/slider/vertical_idle_bar.png matches ** (['all']).
 game/gui/phone/slider/vertical_idle_thumb.png matches ** (['all']).
 game/gui/phone/textbox.png matches ** (['all']).
 game/gui/scrollbar/ matches ** (['all']).
-game/gui/scrollbar/horizontal_hover_bar.png matches ** (['all']).
-game/gui/scrollbar/horizontal_hover_thumb.png matches ** (['all']).
-game/gui/scrollbar/horizontal_idle_bar.png matches ** (['all']).
-game/gui/scrollbar/horizontal_idle_thumb.png matches ** (['all']).
-game/gui/scrollbar/vertical_hover_bar.png matches ** (['all']).
-game/gui/scrollbar/vertical_hover_thumb.png matches ** (['all']).
+game/gui/scrollbar/vertical_idle_bar.png~ matches **~ (None).
 game/gui/scrollbar/vertical_idle_bar.png matches ** (['all']).
+game/gui/scrollbar/vertical_hover_thumb.png~ matches **~ (None).
+game/gui/scrollbar/vertical_hover_thumb.png matches ** (['all']).
+game/gui/scrollbar/vertical_hover_bar.png~ matches **~ (None).
+game/gui/scrollbar/vertical_hover_bar.png matches ** (['all']).
+game/gui/scrollbar/horizontal_idle_thumb.png~ matches **~ (None).
+game/gui/scrollbar/horizontal_idle_thumb.png matches ** (['all']).
+game/gui/scrollbar/horizontal_idle_bar.png~ matches **~ (None).
+game/gui/scrollbar/horizontal_idle_bar.png matches ** (['all']).
+game/gui/scrollbar/horizontal_hover_thumb.png~ matches **~ (None).
+game/gui/scrollbar/horizontal_hover_thumb.png matches ** (['all']).
+game/gui/scrollbar/horizontal_hover_bar.png~ matches **~ (None).
+game/gui/scrollbar/horizontal_hover_bar.png matches ** (['all']).
+game/gui/scrollbar/vertical_idle_thumb.png~ matches **~ (None).
 game/gui/scrollbar/vertical_idle_thumb.png matches ** (['all']).
 game/gui/skip.png matches ** (['all']).
 game/gui/slider/ matches ** (['all']).
-game/gui/slider/horizontal_hover_bar.png matches ** (['all']).
-game/gui/slider/horizontal_hover_thumb.png matches ** (['all']).
-game/gui/slider/horizontal_idle_bar.png matches ** (['all']).
-game/gui/slider/horizontal_idle_thumb.png matches ** (['all']).
-game/gui/slider/vertical_hover_bar.png matches ** (['all']).
-game/gui/slider/vertical_hover_thumb.png matches ** (['all']).
-game/gui/slider/vertical_idle_bar.png matches ** (['all']).
+game/gui/slider/vertical_idle_thumb.png~ matches **~ (None).
 game/gui/slider/vertical_idle_thumb.png matches ** (['all']).
+game/gui/slider/vertical_idle_bar.png~ matches **~ (None).
+game/gui/slider/vertical_idle_bar.png matches ** (['all']).
+game/gui/slider/vertical_hover_thumb.png~ matches **~ (None).
+game/gui/slider/vertical_hover_thumb.png matches ** (['all']).
+game/gui/slider/vertical_hover_bar.png~ matches **~ (None).
+game/gui/slider/vertical_hover_bar.png matches ** (['all']).
+game/gui/slider/horizontal_idle_thumb.png~ matches **~ (None).
+game/gui/slider/horizontal_idle_thumb.png matches ** (['all']).
+game/gui/slider/horizontal_idle_bar.png~ matches **~ (None).
+game/gui/slider/horizontal_idle_bar.png matches ** (['all']).
+game/gui/slider/horizontal_hover_thumb.png~ matches **~ (None).
+game/gui/slider/horizontal_hover_thumb.png matches ** (['all']).
+game/gui/slider/horizontal_hover_bar.png~ matches **~ (None).
+game/gui/slider/horizontal_hover_bar.png matches ** (['all']).
 game/gui/textbox.png matches ** (['all']).
 game/gui/smoke3.png matches ** (['all']).
 game/gui/window_icon.png matches ** (['all']).
-game/gui.rpyc matches ** (['all']).
+game/gui/frame.png~ matches **~ (None).
+game/gui/frame.png matches ** (['all']).
+game/gui/main_menu.png~ matches **~ (None).
+game/gui/main_menu.png matches ** (['all']).
+game/gui/game_menu.png~ matches **~ (None).
+game/gui/game_menu.png matches ** (['all']).
 game/images/ matches ** (['all']).
 game/images/bg backonstreet.png matches ** (['all']).
 game/images/bg closedalleydoor.png matches ** (['all']).
@@ -117,21 +143,65 @@ game/images/debugidle.png matches ** (['all']).
 game/images/smoke3.png matches ** (['all']).
 game/images/bg wallnormal.png matches ** (['all']).
 game/images/bg largemoon.png matches ** (['all']).
+game/images/bg emptyStreet.png matches ** (['all']).
+game/images/Burel_ColorPalette.jpg matches ** (['all']).
+game/images/bg leftsane.png matches ** (['all']).
+game/images/bg lefttemple.png matches ** (['all']).
+game/images/bg templenormal.png matches ** (['all']).
+game/images/bg leftinsane.png matches ** (['all']).
+game/images/bg behindalleydoor.kra matches ** (['all']).
+game/images/bg behindalleydoor.png matches ** (['all']).
+game/images/bg docks.kra matches ** (['all']).
+game/images/bg docks.png matches ** (['all']).
+game/images/bg forestoutskirts.kra matches ** (['all']).
+game/images/bg forestoutskirts.png matches ** (['all']).
+game/images/bg forestcreepy.kra matches ** (['all']).
+game/images/bg forestcreepy.png matches ** (['all']).
+game/images/bg forestinner.png matches ** (['all']).
+game/images/bg forestinner.kra matches ** (['all']).
+game/images/bg townsignpost.kra matches ** (['all']).
+game/images/bg townsignpost.png matches ** (['all']).
+game/images/bg templedoor.kra matches ** (['all']).
+game/images/bg templedoor.png matches ** (['all']).
+game/images/bg forcedoorinsane.png matches ** (['all']).
+game/images/bg forcedoorinsane.kra matches ** (['all']).
+game/images/bg deadthing.kra matches ** (['all']).
+game/images/bg deadthing.png matches ** (['all']).
+game/images/bg behindtempledoor.kra matches ** (['all']).
+game/images/bg behindtempledoor.png matches ** (['all']).
+game/images/bg templepedestal.png matches ** (['all']).
+game/images/bg templepedestal.kra matches ** (['all']).
+game/images/bg templelobby.kra matches ** (['all']).
+game/images/bg templelobby.png matches ** (['all']).
+game/images/bg templecreepy.kra matches ** (['all']).
+game/images/bg templecreepy.png matches ** (['all']).
+game/images/bg templeoutside.png matches ** (['all']).
+game/images/bg templeoutside.kra matches ** (['all']).
+game/images/bg trappedintemple.kra matches ** (['all']).
+game/images/bg trappedintemple.png matches ** (['all']).
+game/images/bg leavingtown.png matches ** (['all']).
+game/images/bg leavingtown.kra matches ** (['all']).
 game/options.rpy matches ** (['all']).
 game/saves/ matches game/saves/ (None).
-game/options.rpyc matches ** (['all']).
 game/screens.rpy matches ** (['all']).
-game/script.rpy matches ** (['all']).
-game/screens.rpyc matches ** (['all']).
 game/tl/ matches ** (['all']).
 game/tl/None/ matches ** (['all']).
 game/tl/None/common.rpym matches ** (['all']).
 game/tl/None/common.rpymc matches ** (['all']).
+game/debug_ui.rpyc matches ** (['all']).
+game/gui.rpyc matches ** (['all']).
+game/options.rpyc matches ** (['all']).
+game/screens.rpyc matches ** (['all']).
+game/snowblossom.rpy matches ** (['all']).
+game/script.rpy matches ** (['all']).
+game/dustfx_screen.rpy matches ** (['all']).
+game/dustfx_screen.rpyc matches ** (['all']).
 game/script.rpyc matches ** (['all']).
-errors.txt matches errors.txt (None).
+game/snowblossom.rpyc matches ** (['all']).
 project.json matches project.json (None).
-traceback.txt matches traceback.txt (None).
+errors.txt matches errors.txt (None).
 log.txt matches log.txt (None).
+traceback.txt matches traceback.txt (None).
 .git/ matches **/.* (None).
 doc/ doesn't match anything.
 doc/ matches None (None).
@@ -1045,111 +1115,58 @@ renpy/audio/webaudio.py matches renpy/**.py (['renpy']).
 renpy/bootstrap.py matches renpy/**.py (['renpy']).
 renpy/common/ matches renpy/common/ (['all']).
 renpy/common/000atl.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/000atl.rpyc matches renpy/common/** (['all']).
 renpy/common/000namespaces.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/000namespaces.rpyc matches renpy/common/** (['all']).
-renpy/common/00accessibility.rpyc matches renpy/common/** (['all']).
-renpy/common/000statements.rpyc matches renpy/common/** (['all']).
 renpy/common/000window.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/000window.rpyc matches renpy/common/** (['all']).
 renpy/common/00accessibility.rpy matches renpy/common/**.rpy (['renpy']).
 renpy/common/000statements.rpy matches renpy/common/**.rpy (['renpy']).
 renpy/common/00achievement.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00achievement.rpyc matches renpy/common/** (['all']).
 renpy/common/00action_audio.rpy matches renpy/common/**.rpy (['renpy']).
 renpy/common/00action_control.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00action_audio.rpyc matches renpy/common/** (['all']).
-renpy/common/00action_control.rpyc matches renpy/common/** (['all']).
 renpy/common/00action_data.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00action_data.rpyc matches renpy/common/** (['all']).
 renpy/common/00action_file.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00action_file.rpyc matches renpy/common/** (['all']).
 renpy/common/00action_menu.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00action_menu.rpyc matches renpy/common/** (['all']).
 renpy/common/00action_other.rpy matches renpy/common/**.rpy (['renpy']).
 renpy/common/00audio.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00action_other.rpyc matches renpy/common/** (['all']).
-renpy/common/00audio.rpyc matches renpy/common/** (['all']).
 renpy/common/00barvalues.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00barvalues.rpyc matches renpy/common/** (['all']).
 renpy/common/00build.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00build.rpyc matches renpy/common/** (['all']).
 renpy/common/00compat.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00compat.rpyc matches renpy/common/** (['all']).
 renpy/common/00console.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00console.rpyc matches renpy/common/** (['all']).
 renpy/common/00defaults.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00defaults.rpyc matches renpy/common/** (['all']).
 renpy/common/00definitions.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00definitions.rpyc matches renpy/common/** (['all']).
 renpy/common/00director.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00director.rpyc matches renpy/common/** (['all']).
 renpy/common/00gallery.rpy matches renpy/common/**.rpy (['renpy']).
 renpy/common/00gamemenu.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00gallery.rpyc matches renpy/common/** (['all']).
-renpy/common/00gamemenu.rpyc matches renpy/common/** (['all']).
 renpy/common/00gamepad.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00gamepad.rpyc matches renpy/common/** (['all']).
 renpy/common/00gltest.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00gltest.rpyc matches renpy/common/** (['all']).
-renpy/common/00gui.rpyc matches renpy/common/** (['all']).
 renpy/common/00gui.rpy matches renpy/common/**.rpy (['renpy']).
 renpy/common/00iap.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00iap.rpyc matches renpy/common/** (['all']).
 renpy/common/00icon.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00icon.rpyc matches renpy/common/** (['all']).
 renpy/common/00iconbutton.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00iconbutton.rpyc matches renpy/common/** (['all']).
 renpy/common/00images.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00images.rpyc matches renpy/common/** (['all']).
 renpy/common/00inputvalues.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00inputvalues.rpyc matches renpy/common/** (['all']).
 renpy/common/00keymap.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00keymap.rpyc matches renpy/common/** (['all']).
 renpy/common/00layeredimage.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00layeredimage.rpyc matches renpy/common/** (['all']).
 renpy/common/00layout.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00layout.rpyc matches renpy/common/** (['all']).
 renpy/common/00library.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00library.rpyc matches renpy/common/** (['all']).
 renpy/common/00matrixcolor.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00matrixcolor.rpyc matches renpy/common/** (['all']).
 renpy/common/00matrixtransform.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00matrixtransform.rpyc matches renpy/common/** (['all']).
 renpy/common/00mixers.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00mixers.rpyc matches renpy/common/** (['all']).
 renpy/common/00mousedisplayable.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00mousedisplayable.rpyc matches renpy/common/** (['all']).
 renpy/common/00musicroom.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00musicroom.rpyc matches renpy/common/** (['all']).
 renpy/common/00nvl_mode.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00nvl_mode.rpyc matches renpy/common/** (['all']).
 renpy/common/00obsolete.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00obsolete.rpyc matches renpy/common/** (['all']).
 renpy/common/00performance.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00performance.rpyc matches renpy/common/** (['all']).
 renpy/common/00placeholder.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00placeholder.rpyc matches renpy/common/** (['all']).
 renpy/common/00preferences.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00preferences.rpyc matches renpy/common/** (['all']).
 renpy/common/00shaders.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00shaders.rpyc matches renpy/common/** (['all']).
 renpy/common/00sideimage.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00sideimage.rpyc matches renpy/common/** (['all']).
 renpy/common/00splines.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00splines.rpyc matches renpy/common/** (['all']).
 renpy/common/00start.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00start.rpyc matches renpy/common/** (['all']).
 renpy/common/00steam.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00steam.rpyc matches renpy/common/** (['all']).
 renpy/common/00style.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00style.rpyc matches renpy/common/** (['all']).
 renpy/common/00stylepreferences.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00stylepreferences.rpyc matches renpy/common/** (['all']).
 renpy/common/00themes.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00themes.rpyc matches renpy/common/** (['all']).
 renpy/common/00touchkeyboard.rpy matches renpy/common/**.rpy (['renpy']).
-renpy/common/00touchkeyboard.rpyc matches renpy/common/** (['all']).
 renpy/common/00updater.rpy matches renpy/common/**.rpy (['renpy']).
 renpy/common/_compat/ matches renpy/common/_compat/** (['renpy']).
 renpy/common/_compat/library.rpym matches renpy/common/_compat/** (None).
@@ -1164,33 +1181,26 @@ renpy/common/_compat/styles.rpym matches renpy/common/_compat/** (None).
 renpy/common/_compat/styles.rpymc matches renpy/common/_compat/** (None).
 renpy/common/_compat/themes.rpym matches renpy/common/_compat/** (None).
 renpy/common/_compat/themes.rpymc matches renpy/common/_compat/** (None).
-renpy/common/00updater.rpyc matches renpy/common/** (['all']).
-renpy/common/00voice.rpyc matches renpy/common/** (['all']).
 renpy/common/_audio.js matches renpy/common/** (['all']).
 renpy/common/00voice.rpy matches renpy/common/**.rpy (['renpy']).
 renpy/common/_developer/ matches renpy/common/** (['all']).
-renpy/common/_developer/developer.rpymc matches renpy/common/** (['all']).
 renpy/common/_developer/developer.rpym matches renpy/common/**.rpym (['renpy']).
 renpy/common/_developer/inspector.rpym matches renpy/common/**.rpym (['renpy']).
+renpy/common/_developer/developer.rpymc matches renpy/common/** (['all']).
 renpy/common/_developer/inspector.rpymc matches renpy/common/** (['all']).
 renpy/common/_dl_silence.ogg matches renpy/common/** (['all']).
 renpy/common/_errorhandling.rpym matches renpy/common/**.rpym (['renpy']).
 renpy/common/_layout/ matches renpy/common/** (['all']).
 renpy/common/_layout/classic_joystick_preferences.rpym matches renpy/common/**.rpym (['renpy']).
-renpy/common/_layout/classic_joystick_preferences.rpymc matches renpy/common/** (['all']).
 renpy/common/_layout/classic_load_save.rpym matches renpy/common/**.rpym (['renpy']).
-renpy/common/_layout/classic_load_save.rpymc matches renpy/common/** (['all']).
 renpy/common/_layout/classic_main_menu.rpym matches renpy/common/**.rpym (['renpy']).
 renpy/common/_layout/classic_preferences.rpym matches renpy/common/**.rpym (['renpy']).
-renpy/common/_layout/classic_main_menu.rpymc matches renpy/common/** (['all']).
 renpy/common/_layout/classic_navigation.rpym matches renpy/common/**.rpym (['renpy']).
-renpy/common/_layout/classic_navigation.rpymc matches renpy/common/** (['all']).
 renpy/common/_layout/classic_preferences.rpymc matches renpy/common/** (['all']).
 renpy/common/_layout/classic_preferences_common.rpym matches renpy/common/**.rpym (['renpy']).
 renpy/common/_layout/classic_preferences_common.rpymc matches renpy/common/** (['all']).
 renpy/common/_layout/classic_yesno_prompt.rpym matches renpy/common/**.rpym (['renpy']).
 renpy/common/_layout/grouped_main_menu.rpym matches renpy/common/**.rpym (['renpy']).
-renpy/common/_layout/classic_yesno_prompt.rpymc matches renpy/common/** (['all']).
 renpy/common/_layout/grouped_navigation.rpym matches renpy/common/**.rpym (['renpy']).
 renpy/common/_layout/imagemap_common.rpym matches renpy/common/**.rpym (['renpy']).
 renpy/common/_layout/imagemap_common.rpymc matches renpy/common/** (['all']).
@@ -1208,18 +1218,22 @@ renpy/common/_layout/one_column_preferences.rpym matches renpy/common/**.rpym ([
 renpy/common/_layout/screen_joystick_preferences.rpym matches renpy/common/**.rpym (['renpy']).
 renpy/common/_layout/screen_joystick_preferences.rpymc matches renpy/common/** (['all']).
 renpy/common/_layout/screen_load_save.rpym matches renpy/common/**.rpym (['renpy']).
-renpy/common/_layout/screen_load_save.rpymc matches renpy/common/** (['all']).
 renpy/common/_layout/screen_main_menu.rpym matches renpy/common/**.rpym (['renpy']).
-renpy/common/_layout/screen_main_menu.rpymc matches renpy/common/** (['all']).
 renpy/common/_layout/screen_preferences.rpym matches renpy/common/**.rpym (['renpy']).
-renpy/common/_layout/screen_preferences.rpymc matches renpy/common/** (['all']).
 renpy/common/_layout/screen_yesno_prompt.rpym matches renpy/common/**.rpym (['renpy']).
-renpy/common/_layout/screen_yesno_prompt.rpymc matches renpy/common/** (['all']).
 renpy/common/_layout/scrolling_load_save.rpym matches renpy/common/**.rpym (['renpy']).
 renpy/common/_layout/scrolling_load_save.rpymc matches renpy/common/** (['all']).
 renpy/common/_layout/two_column_preferences.rpym matches renpy/common/**.rpym (['renpy']).
 renpy/common/_layout/two_column_preferences.rpymc matches renpy/common/** (['all']).
-renpy/common/_errorhandling.rpymc matches renpy/common/** (['all']).
+renpy/common/_layout/classic_joystick_preferences.rpymc matches renpy/common/** (['all']).
+renpy/common/_layout/classic_load_save.rpymc matches renpy/common/** (['all']).
+renpy/common/_layout/classic_main_menu.rpymc matches renpy/common/** (['all']).
+renpy/common/_layout/classic_navigation.rpymc matches renpy/common/** (['all']).
+renpy/common/_layout/screen_load_save.rpymc matches renpy/common/** (['all']).
+renpy/common/_layout/screen_main_menu.rpymc matches renpy/common/** (['all']).
+renpy/common/_layout/screen_preferences.rpymc matches renpy/common/** (['all']).
+renpy/common/_layout/screen_yesno_prompt.rpymc matches renpy/common/** (['all']).
+renpy/common/_layout/classic_yesno_prompt.rpymc matches renpy/common/** (['all']).
 renpy/common/_missing_image.png matches renpy/common/** (['all']).
 renpy/common/_outline/ matches renpy/common/** (['all']).
 renpy/common/_outline/bar.png matches renpy/common/_outline/** (None).
@@ -1246,7 +1260,6 @@ renpy/common/_roundrect/rrvslider_empty.png matches renpy/common/_roundrect/** (
 renpy/common/_roundrect/rrvslider_full.png matches renpy/common/_roundrect/** (None).
 renpy/common/_roundrect/rrvslider_thumb.png matches renpy/common/_roundrect/** (None).
 renpy/common/_shaders.rpym matches renpy/common/**.rpym (['renpy']).
-renpy/common/_shaders.rpymc matches renpy/common/** (['all']).
 renpy/common/_silence.ogg matches renpy/common/** (['all']).
 renpy/common/_theme_amie2/ matches renpy/common/_theme** (None).
 renpy/common/_theme_austen/ matches renpy/common/_theme** (None).
@@ -1267,6 +1280,63 @@ renpy/common/DejaVuSans.txt matches renpy/common/** (['all']).
 renpy/common/squarestile.png matches renpy/common/** (['all']).
 renpy/common/gamecontrollerdb.txt matches renpy/common/** (['all']).
 renpy/common/DejaVuSans.ttf matches renpy/common/** (['all']).
+renpy/common/00action_file.rpyc matches renpy/common/** (['all']).
+renpy/common/000atl.rpyc matches renpy/common/** (['all']).
+renpy/common/000namespaces.rpyc matches renpy/common/** (['all']).
+renpy/common/000statements.rpyc matches renpy/common/** (['all']).
+renpy/common/000window.rpyc matches renpy/common/** (['all']).
+renpy/common/00accessibility.rpyc matches renpy/common/** (['all']).
+renpy/common/00achievement.rpyc matches renpy/common/** (['all']).
+renpy/common/00action_audio.rpyc matches renpy/common/** (['all']).
+renpy/common/00action_control.rpyc matches renpy/common/** (['all']).
+renpy/common/00action_data.rpyc matches renpy/common/** (['all']).
+renpy/common/00action_menu.rpyc matches renpy/common/** (['all']).
+renpy/common/00action_other.rpyc matches renpy/common/** (['all']).
+renpy/common/00audio.rpyc matches renpy/common/** (['all']).
+renpy/common/00barvalues.rpyc matches renpy/common/** (['all']).
+renpy/common/00build.rpyc matches renpy/common/** (['all']).
+renpy/common/00compat.rpyc matches renpy/common/** (['all']).
+renpy/common/00console.rpyc matches renpy/common/** (['all']).
+renpy/common/00defaults.rpyc matches renpy/common/** (['all']).
+renpy/common/00definitions.rpyc matches renpy/common/** (['all']).
+renpy/common/00director.rpyc matches renpy/common/** (['all']).
+renpy/common/00gallery.rpyc matches renpy/common/** (['all']).
+renpy/common/00gamemenu.rpyc matches renpy/common/** (['all']).
+renpy/common/00gamepad.rpyc matches renpy/common/** (['all']).
+renpy/common/00gltest.rpyc matches renpy/common/** (['all']).
+renpy/common/00gui.rpyc matches renpy/common/** (['all']).
+renpy/common/00iap.rpyc matches renpy/common/** (['all']).
+renpy/common/00icon.rpyc matches renpy/common/** (['all']).
+renpy/common/00iconbutton.rpyc matches renpy/common/** (['all']).
+renpy/common/00shaders.rpyc matches renpy/common/** (['all']).
+renpy/common/00inputvalues.rpyc matches renpy/common/** (['all']).
+renpy/common/00keymap.rpyc matches renpy/common/** (['all']).
+renpy/common/00layeredimage.rpyc matches renpy/common/** (['all']).
+renpy/common/00layout.rpyc matches renpy/common/** (['all']).
+renpy/common/00library.rpyc matches renpy/common/** (['all']).
+renpy/common/00matrixcolor.rpyc matches renpy/common/** (['all']).
+renpy/common/00matrixtransform.rpyc matches renpy/common/** (['all']).
+renpy/common/00mixers.rpyc matches renpy/common/** (['all']).
+renpy/common/00mousedisplayable.rpyc matches renpy/common/** (['all']).
+renpy/common/00musicroom.rpyc matches renpy/common/** (['all']).
+renpy/common/00nvl_mode.rpyc matches renpy/common/** (['all']).
+renpy/common/00obsolete.rpyc matches renpy/common/** (['all']).
+renpy/common/00performance.rpyc matches renpy/common/** (['all']).
+renpy/common/00placeholder.rpyc matches renpy/common/** (['all']).
+renpy/common/00preferences.rpyc matches renpy/common/** (['all']).
+renpy/common/00sideimage.rpyc matches renpy/common/** (['all']).
+renpy/common/00images.rpyc matches renpy/common/** (['all']).
+renpy/common/00splines.rpyc matches renpy/common/** (['all']).
+renpy/common/00start.rpyc matches renpy/common/** (['all']).
+renpy/common/00steam.rpyc matches renpy/common/** (['all']).
+renpy/common/00style.rpyc matches renpy/common/** (['all']).
+renpy/common/00stylepreferences.rpyc matches renpy/common/** (['all']).
+renpy/common/00themes.rpyc matches renpy/common/** (['all']).
+renpy/common/00touchkeyboard.rpyc matches renpy/common/** (['all']).
+renpy/common/00updater.rpyc matches renpy/common/** (['all']).
+renpy/common/00voice.rpyc matches renpy/common/** (['all']).
+renpy/common/_errorhandling.rpymc matches renpy/common/** (['all']).
+renpy/common/_shaders.rpymc matches renpy/common/** (['all']).
 renpy/color.py matches renpy/**.py (['renpy']).
 renpy/character.py matches renpy/**.py (['renpy']).
 renpy/compat/ matches renpy/** (['all']).

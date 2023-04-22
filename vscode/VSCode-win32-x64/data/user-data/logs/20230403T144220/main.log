@@ -1,6 +1,0 @@
-2023-04-03 14:42:20.472 [info] update#setState idle
-2023-04-03 14:42:21.128 [info] Starting extension host with pid 22472 (fork() took 12 ms).
-2023-04-03 14:42:50.484 [info] update#setState checking for updates
-2023-04-03 14:42:50.487 [info] update#setState available for download
-2023-04-03 15:46:53.231 [info] Waiting for extension host with pid 22472 to exit.
-2023-04-03 15:46:53.236 [info] Extension host with pid 22472 exited with code: 0, signal: null.

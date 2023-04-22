@@ -1,0 +1,4 @@
+2023-04-21 15:03:40.590 [info] update#setState idle
+2023-04-21 15:03:41.293 [info] Starting extension host with pid 13324 (fork() took 14 ms).
+2023-04-21 15:03:59.454 [info] Waiting for extension host with pid 13324 to exit.
+2023-04-21 15:03:59.458 [info] Extension host with pid 13324 exited with code: 0, signal: null.
