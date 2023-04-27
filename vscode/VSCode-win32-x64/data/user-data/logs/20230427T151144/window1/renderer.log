@@ -1,0 +1,17 @@
+2023-04-27 15:11:45.008 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/D:/Git/Capstone/GDD4900_Capstone/game/script.rpy","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-04-27 15:11:45.905 [error] Unable to write to Workspace Settings because no workspace is opened. Please open a workspace first and try again.: Error: Unable to write to Workspace Settings because no workspace is opened. Please open a workspace first and try again.
+    at w.y (vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2434:6124)
+    at w.E (vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2434:9041)
+    at w.n (vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2434:3153)
+    at Object.factory (vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2434:3053)
+    at T.h (vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:89:15928)
+    at vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:89:15840
+    at new Promise (<anonymous>)
+    at T.queue (vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:89:15782)
+    at w.writeConfiguration (vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2434:3022)
+    at B.Hb (vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2434:28762)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 0)
+    at async Object.K [as settled] (vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:89:21307)
+    at async B.updateValue (vscode-file://vscode-app/d:/Git/Capstone/vscode/VSCode-win32-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2434:17200)
+2023-04-27 15:11:47.948 [info] [perf] Render performance baseline is 17ms

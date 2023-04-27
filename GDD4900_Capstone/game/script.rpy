@@ -30,28 +30,30 @@ image snow = Snow(im.Scale("gui/smoke3.png", 10, 10), max_particles=400, speed=1
 # The game starts here.
 label start:
     # DTW ADDED
-    scene black
-    show snow
+#    scene black
+#    show snow
 
     # DTW REMOVED
     #scene bg test
     #show screen debugUI
     #show screen dustFX
 
-    menu sanityCheck:
-        "Sanity Check!":
-            $ insanity -= 1
-        "Insanity Check!":
-            $ insanity += 1
-        "Start.":
-            jump startofstory
-        "End.":
-            jump endGame
+#    menu sanityCheck:
+#        "Sanity Check!":
+#            $ insanity -= 1
+#        "Insanity Check!":
+#            $ insanity += 1
+#        "Start.":
+#            jump startofstory
+#        "End.":
+#            jump endGame
 #        "Debug Current Problem Scene.":
 #            jump docks
 
-    "Check the debug screen."
-    jump sanityCheck
+#    "Check the debug screen."
+#    jump sanityCheck
+
+    jump startofstory
 
 label endGame:
     # This ends the game.
