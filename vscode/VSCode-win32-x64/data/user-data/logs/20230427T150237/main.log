@@ -1,0 +1,6 @@
+2023-04-27 15:02:38.135 [info] update#setState idle
+2023-04-27 15:02:38.712 [info] Starting extension host with pid 6508 (fork() took 15 ms).
+2023-04-27 15:03:08.141 [info] update#setState checking for updates
+2023-04-27 15:03:08.144 [info] update#setState available for download
+2023-04-27 15:06:47.024 [info] Waiting for extension host with pid 6508 to exit.
+2023-04-27 15:06:47.031 [info] Extension host with pid 6508 exited with code: 0, signal: null.

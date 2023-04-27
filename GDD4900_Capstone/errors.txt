@@ -2,9 +2,10 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 137: end of line expected.
-    scene bg deadthing with vpunch with vpunch with vpunch
-                                   ^
+File "game/script.rpy", line 280: invalid syntax
+        $ checkedBoat = True
+         ^
+    
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Thu Apr  6 10:33:12 2023
+Thu Apr 27 15:05:58 2023
