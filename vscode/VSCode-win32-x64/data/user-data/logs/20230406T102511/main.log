@@ -1,6 +1,0 @@
-2023-04-06 10:25:11.958 [info] update#setState idle
-2023-04-06 10:25:12.681 [info] Starting extension host with pid 1588 (fork() took 17 ms).
-2023-04-06 10:25:41.965 [info] update#setState checking for updates
-2023-04-06 10:25:41.968 [info] update#setState available for download
-2023-04-06 10:36:02.857 [info] Waiting for extension host with pid 1588 to exit.
-2023-04-06 10:36:02.861 [info] Extension host with pid 1588 exited with code: 0, signal: null.

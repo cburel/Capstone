@@ -297,10 +297,8 @@ label docksMoved:
             jump docksLeave
 
 label docksLeave:
-    menu docksLeaveMenu:
-        "...":
-            "Time to go back."
-            jump docksExit
+    "Time to go back."
+    jump docksExit
 
 label docksExit:
 
@@ -533,9 +531,9 @@ label fledPanicked:
     "{color=#f00}GET OUT.{/color}"
     
     python:
-        if insanity >= 10:
+        if insanity >= 15:
             renpy.jump("trappedInTemple")
-        elif insanity < 10 and insanity >= 5:
+        elif insanity < 15 and insanity >= 5:
             renpy.jump("leftInsane")
         else:
             renpy.jump("leftSane")
