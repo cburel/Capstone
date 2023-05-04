@@ -1,0 +1,4 @@
+SFX: NicknameLarry @ Pixabay
+Music: SoundGalleryByDmitryTaras @ Pixabay
+Art: Celeste Burel
+Engine: Ren'Py 8

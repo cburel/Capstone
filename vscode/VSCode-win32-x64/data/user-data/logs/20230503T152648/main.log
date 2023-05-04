@@ -1,0 +1,6 @@
+2023-05-03 15:26:48.640 [info] update#setState idle
+2023-05-03 15:26:49.257 [info] Starting extension host with pid 9672 (fork() took 14 ms).
+2023-05-03 15:27:18.644 [info] update#setState checking for updates
+2023-05-03 15:27:18.648 [info] update#setState available for download
+2023-05-03 15:27:49.093 [info] Waiting for extension host with pid 9672 to exit.
+2023-05-03 15:27:49.101 [info] Extension host with pid 9672 exited with code: 0, signal: null.

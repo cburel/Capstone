@@ -1,6 +1,0 @@
-2023-04-16 18:31:44.261 [info] update#setState idle
-2023-04-16 18:31:44.891 [info] Starting extension host with pid 17848 (fork() took 14 ms).
-2023-04-16 18:32:14.270 [info] update#setState checking for updates
-2023-04-16 18:32:14.275 [info] update#setState available for download
-2023-04-16 18:37:18.698 [info] Waiting for extension host with pid 17848 to exit.
-2023-04-16 18:37:18.712 [info] Extension host with pid 17848 exited with code: 0, signal: null.

@@ -1,0 +1,4 @@
+2023-05-03 15:26:32.565 [info] update#setState idle
+2023-05-03 15:26:33.220 [info] Starting extension host with pid 21256 (fork() took 15 ms).
+2023-05-03 15:26:34.554 [info] Waiting for extension host with pid 21256 to exit.
+2023-05-03 15:26:34.569 [info] Extension host with pid 21256 exited with code: 0, signal: null.

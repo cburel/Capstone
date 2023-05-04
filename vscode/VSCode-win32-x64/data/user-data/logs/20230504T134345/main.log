@@ -1,0 +1,6 @@
+2023-05-04 13:43:45.234 [info] update#setState idle
+2023-05-04 13:43:45.909 [info] Starting extension host with pid 11700 (fork() took 13 ms).
+2023-05-04 13:44:15.241 [info] update#setState checking for updates
+2023-05-04 13:44:15.245 [info] update#setState available for download
+2023-05-04 13:47:39.264 [info] Waiting for extension host with pid 11700 to exit.
+2023-05-04 13:47:39.271 [info] Extension host with pid 11700 exited with code: 0, signal: null.
